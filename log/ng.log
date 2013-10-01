@@ -1,0 +1,13 @@
+2013-09-30 16:23:45  WARNING - test one
+2013-09-30 16:24:58  WARNING - 再测试一条
+2013-09-30 16:27:23 MainProcess  WARNING - 再测试一条
+2013-09-30 18:31:34   ERROR - can't open the file 
+2013-09-30 18:33:16   ERROR - can't open the file 1
+2013-09-30 20:37:37   ERROR - graph rrd file test.png failed
+2013-09-30 23:02:46   ERROR - can't open the yaml file base.yaml
+2013-09-30 23:03:39   ERROR - can't open the yaml file base.yaml
+2013-09-30 23:03:59   ERROR - can't open the yaml file base.yaml
+2013-09-30 23:10:07   ERROR - can't open the yaml file base.yaml
+2013-09-30 23:11:23   ERROR - can't open the yaml file base.yaml
+2013-10-01 14:09:24   ERROR - can't open the yaml file /Users/chenqing/hellopy/ng-mini/etc/conf.dbase.yaml
+2013-10-01 14:09:45   ERROR - can't open the yaml file /Users/chenqing/hellopy/ng-mini/etc/conf.dbase.yaml

@@ -1,0 +1,29 @@
+---
+ -
+  Info:         LOAD_LAST_MINUTE
+  OutPutName:   Load(last minute)
+  Application:  base
+  Type:         server
+  TimeInterval: 1
+  RrdDs:        Load
+  RrdDst:       GAUGE
+  RrdMethod:    line1
+  OutPutCenter: current
+  CreatePic:    yes
+  Color:        00A0A0
+  Range:        1000,1200
+  CmdLine:      w |head -1 |awk '{print $(NF-2)}'
+ -
+  Info:         LOAD_LAST_MINUTE
+  OutPutName:   Load(last minute)
+  Application:  base
+  Type:         server
+  TimeInterval: 1
+  RrdDs:        Load
+  RrdDst:       GAUGE
+  RrdMethod:    line1
+  OutPutCenter: current
+  CreatePic:    yes
+  Color:        00A0A0
+  Range:        1000,1200
+  CmdLine:      w |head -1 |awk '{print $(NF-2)}'

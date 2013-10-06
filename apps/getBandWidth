@@ -1,0 +1,10 @@
+#!/bin/bash
+in=`snmpget -v 2c -c public localhost ifInOctets.3|awk '{print $NF}'`
+out=`snmpget -v 2c -c public localhost ifOutOctets.3|awk '{print $NF}'`
+if [[ $1 == "in" ]];then
+    echo $in
+fi
+
+if [[ $1 == 'out' ]];then
+    echo $out
+fi

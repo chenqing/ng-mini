@@ -15,7 +15,7 @@ APP_AUTHOR = 'qing.chen'
 '''
     处理程序的路径,可能需要手动更改
 '''
-APP_PATH = '/Users/chenqing/hellopy/ng-mini'
+APP_PATH = '/root/ng-mini'
 #APP_PATH = os.path.abspath('.')
 
 CONFIG_PATH = os.path.join(APP_PATH ,'etc')
@@ -36,17 +36,16 @@ except:
 try:
     LOG_LEVEL = cf.get('log','log_level').upper()
 except:
-    LOG_LEVEL = 'WARNING'
+    LOG_LEVEL = 'INFO'
 #rrdtool 文件放在了哪里
 try:
     RRDTOOL_PATH = cf.get('base','rrdtool_path')
-    if not os.path.isdir(RRDTOOL_PATH):
-        RRDTOOL_PATH = get_output('/usr/bin/which rrdtool')
 except:
-    try:
-        RRDTOOL_PATH = get_output('/usr/bin/which rrdtool')
-    except:
-        RRDTOOL_PATH = ' '
+    RRDTOOL_PATH = get_output('/usr/bin/which rrdtool')
+
+if not os.path.isfile(RRDTOOL_PATH):
+    RRDTOOL_PATH = get_output('/usr/bin/which rrdtool')
+
 
 #pid文件
 try:
@@ -70,6 +69,23 @@ except:
 try:
     RRD_PATH = os.path.join(APP_PATH,cf.get('base','rrd_path'))
 except:
-    RRD_PATH = ' '
+    RRD_PATH = APP_PATH + '/' + 'rrd'
 
+#font 字体文件路径
+try:
+    FONT_PATH = os.path.join(APP_PATH,'font')
+except:
+    FONT_PATH = APP_PATH + '/' + 'font'
 
+#图片文件存放路径
+
+try:
+    PIC_PATH = os.path.join(APP_PATH,cf.get('base','graph_path'))
+except:
+    PIC_PATH = APP_PATH + '/' + 'web/pic/rrd'
+
+#apps 自定义数据获取脚本的路径
+try:
+    APPS_PATH = os.path.join(APP_PATH,cf.get('base','apps_path'))
+except:
+    APPS_PATH = APP_PATH + '/' + 'apps'

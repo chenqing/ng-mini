@@ -9,21 +9,39 @@
   RrdDst:       GAUGE
   RrdMethod:    line1
   OutPutCenter: current
-  CreatePic:    yes
-  Color:        00A0A0
-  Range:        1000,1200
+  CreatePic:    no
+  Color:        FF0000
+  Range:        300,400
+  UseApp:       no
   CmdLine:      w |head -1 |awk '{print $(NF-2)}'
  -
-  Info:         LOAD_LAST_MINUTE
-  OutPutName:   Load(last minute)
+  Info:         BAND_WIDTH_IN
+  OutPutName:   In(last minute)
   Application:  base
   Type:         server
   TimeInterval: 1
-  RrdDs:        Load
-  RrdDst:       GAUGE
+  RrdDs:        In
+  RrdDst:       COUNTER
   RrdMethod:    line1
   OutPutCenter: current
   CreatePic:    yes
-  Color:        00A0A0
-  Range:        1000,1200
-  CmdLine:      w |head -1 |awk '{print $(NF-2)}'
+  Color:        0000FF
+  Range:        100,400
+  UseApp:       yes
+  CmdLine:      getBandWidth in
+
+ -
+  Info:         BAND_WIDTH_OUT
+  OutPutName:   Out(last minute)
+  Application:  base
+  Type:         server
+  TimeInterval: 1
+  RrdDs:        Out
+  RrdDst:       COUNTER
+  RrdMethod:    AREA
+  OutPutCenter: current
+  CreatePic:    yes
+  Color:        00FF00
+  Range:        100,400
+  UseApp:       yes
+  CmdLine:      getBandWidth out

@@ -90,6 +90,12 @@ class Ngd(Daemon):
                             value = get_output(yaml['CmdLine'])
                     ngrrd.update(rrd_file,str(value).rstrip(','))
                     log.info('update ' + rrd_file + ' value is ' + str(value).rstrip(','))
+                    if datetime.now().minute % 5 == 0:
+                        hostname = get_output('hostname')
+                        for dt in ['day','week','month','year']:
+                            title = hostname + '性能数据' + dt + '图'
+			    ngrrd.graph_combain('base',title,'汇总图bit/s',dt)
+			    log.info('base app graph ok')
 
 if __name__ == '__main__':
     ng = Ngd(nginit.PID)

@@ -54,26 +54,30 @@ def graph(filename,rrd_file,rrd_ds,rrd_color):
     except:
         log.error('graph rrd file %s failed' %(filename))
 
-def graph_combain(app_name,title,vertical):
+def graph_combain(app_name,title,vertical,date='day'):
     '''
     the app_name is also the yaml file's name,title is the rrdtool pic's title
     '''
-    font = nginit.FONT_PATH + '/' + 'DejaVuSansMono-Roman.ttf'
-    graph_header = '%s graph %s/ng-mini.png -w 800 -h 500 \
+    dt = {'day':86400,'week':604800,'month':2592000,'year':31536000}
+    if date not in ['day','week','month','year']:
+        date = 'day'
+    font = nginit.FONT_PATH + '/' + 'msyh.ttf'
+    graph_header = '%s graph %s/ng-mini-%s.png -w 600 -h 300 \
     -t %s -v %s \
     -n TITLE:12:%s  -n LEGEND:8:%s \
-    --start -86400 --end now \
+    --start -%s --end now \
     --slope-mode \
     --upper-limit 1500 \
     --disable-rrdtool-tag \
-    -Y -X 0  ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,title,vertical,font,font)
-    graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H"' + ' \\ '
+    -Y  --base=1000   --upper-limit 1500     --disable-rrdtool-tag  -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
+    if date == 'day':
+        graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H" '
 
     yaml_file = nginit.YAML_PATH +'/' + app_name + '.yaml'
     app = ngyaml(yaml_file)
     graph_body_top = ''
     graph_body_center = ''
-    graph_body_center += 'COMMENT:"\\n"         COMMENT:"\\n"         COMMENT:"\\t\\t最新值\\t\\t 平均值\\t\\t  最大值\\t\\t最小值\\n"'+' \\'
+    graph_body_center += 'COMMENT:"\\n"         COMMENT:"\\n"         COMMENT:"\\t\\t最新值\\t\\t 平均值\\t\\t  最大值\\t\\t最小值\\n" '
     graph_body_bottom = ''
     DS = []
     DEF = []
@@ -95,23 +99,28 @@ def graph_combain(app_name,title,vertical):
         else:
             CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range)+',+  ')
         graph_body_top += str(DEF[i] +' '+CDEF[i] )
-        graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+DS[i] +\
-                               ' GPRINT:v'+str(i)+':LAST:"%12.2lf" '+\
-                                ' GPRINT:v'+str(i)+':MAX:"%12.2lf" '+\
-                               ' GPRINT:v'+str(i)+':AVERAGE:"%12.2lf" '+\
-                               ' GPRINT:v'+str(i)+':MIN:"%12.2lf" '+' COMMENT:"\\n" ')
+	if a['Info'].startswith('BAND_WIDTH'):
+        	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                               ' GPRINT:v'+str(i)+':LAST:"最新值 %12.2lf %Sbps" '+\
+                                ' GPRINT:v'+str(i)+':MAX:"最大值 %12.2lf %Sbps" '+\
+                               ' GPRINT:v'+str(i)+':AVERAGE:"平均值 %12.2lf %Sbps" '+\
+                               ' GPRINT:v'+str(i)+':MIN:"最小值 %12.2lf %Sbps" '+' COMMENT:"\\n" ')
+	else:
+        	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                               ' GPRINT:v'+str(i)+':LAST:"最新值 %12.2lf " '+\
+                                ' GPRINT:v'+str(i)+':MAX:"最大值 %12.2lf " '+\
+                               ' GPRINT:v'+str(i)+':AVERAGE:"平均值 %12.2lf " '+\
+                               ' GPRINT:v'+str(i)+':MIN:"最小值 %12.2lf " '+' COMMENT:"\\n" ')
+		
         i = i+1
         if i >len(app):
             break
-    print  graph_header
-    print  graph_body_top + ' \\'
-    print  graph_body_center
-    print  graph_body_bottom
-
+    graph_total = graph_header + graph_body_top + ' ' + graph_body_center + ' ' + graph_body_bottom
+    subprocess.call(str(graph_total),shell=True)
 
 if __name__ == '__main__':
     yaml_file = nginit.YAML_PATH +'/base.yaml'
     app = ngyaml(yaml_file)
-    graph_combain('base','本机rrdtool','汇总图')
+    graph_combain('base','本机rrdtool','汇总图','year')
 
 

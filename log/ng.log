@@ -2733,3 +2733,803 @@ Timeout: No Response from localhost.
 2013-10-06 14:59:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
 2013-10-06 14:59:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106155588
 2013-10-06 14:59:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86041654
+2013-10-06 15:00:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:00:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106200528
+2013-10-06 15:00:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86059621
+2013-10-06 15:01:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:01:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106251226
+2013-10-06 15:01:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86123221
+2013-10-06 15:02:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:02:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106284666
+2013-10-06 15:02:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86125093
+2013-10-06 15:03:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:03:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106329136
+2013-10-06 15:03:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86136385
+2013-10-06 15:04:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:04:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106380896
+2013-10-06 15:04:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86164156
+2013-10-06 15:05:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.15
+2013-10-06 15:05:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106438109
+2013-10-06 15:05:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 86281371
+2013-10-06 15:06:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 15:06:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106599749
+2013-10-06 15:06:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 91015540
+2013-10-06 15:07:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 15:07:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106750393
+2013-10-06 15:07:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 95909090
+2013-10-06 15:08:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 15:08:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106786342
+2013-10-06 15:08:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 95917592
+2013-10-06 15:09:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:09:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106833129
+2013-10-06 15:09:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 95940730
+2013-10-06 15:10:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:10:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106885151
+2013-10-06 15:10:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 95985459
+2013-10-06 15:11:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:11:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 106947899
+2013-10-06 15:11:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 96019080
+2013-10-06 15:12:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:12:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 107117688
+2013-10-06 15:12:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 96185798
+2013-10-06 15:13:22   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:13:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 107187341
+2013-10-06 15:13:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 96689889
+2013-10-06 15:14:22   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 15:14:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 107479884
+2013-10-06 15:14:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97011134
+2013-10-06 15:15:22   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 15:15:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 107538572
+2013-10-06 15:15:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97042596
+2013-10-06 15:16:22   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:16:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 107801089
+2013-10-06 15:16:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97084036
+2013-10-06 15:18:13   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:18:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108056873
+2013-10-06 15:18:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97153162
+2013-10-06 15:19:13   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:19:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108470210
+2013-10-06 15:19:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97223460
+2013-10-06 15:20:13   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:20:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108548340
+2013-10-06 15:20:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97250327
+2013-10-06 15:21:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:21:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108828643
+2013-10-06 15:21:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97284908
+2013-10-06 15:22:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:22:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108932570
+2013-10-06 15:22:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97423774
+2013-10-06 15:23:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:23:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 108989325
+2013-10-06 15:23:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97457229
+2013-10-06 15:24:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:24:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109053628
+2013-10-06 15:24:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97494214
+2013-10-06 15:25:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:25:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109115583
+2013-10-06 15:25:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97548585
+2013-10-06 15:26:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 15:26:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109184771
+2013-10-06 15:26:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97603101
+2013-10-06 15:27:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:27:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109248827
+2013-10-06 15:27:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97656220
+2013-10-06 15:28:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:28:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109312095
+2013-10-06 15:28:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97689532
+2013-10-06 15:29:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:29:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109381670
+2013-10-06 15:29:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97738540
+2013-10-06 15:30:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:30:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109575541
+2013-10-06 15:30:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 97765489
+2013-10-06 15:31:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:31:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109654617
+2013-10-06 15:31:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98137196
+2013-10-06 15:32:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:32:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109737586
+2013-10-06 15:32:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98168477
+2013-10-06 15:33:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:33:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109796216
+2013-10-06 15:33:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98207720
+2013-10-06 15:34:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:34:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 109861475
+2013-10-06 15:34:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98251284
+2013-10-06 15:35:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:35:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110046265
+2013-10-06 15:35:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98369554
+2013-10-06 15:36:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:36:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110149859
+2013-10-06 15:36:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98412375
+2013-10-06 15:37:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 15:37:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110240856
+2013-10-06 15:37:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98474094
+2013-10-06 15:38:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 15:38:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110349929
+2013-10-06 15:38:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98518678
+2013-10-06 15:39:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:39:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110449068
+2013-10-06 15:39:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98581402
+2013-10-06 15:40:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.11
+2013-10-06 15:40:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110552591
+2013-10-06 15:40:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98625799
+2013-10-06 15:41:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 15:41:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110643274
+2013-10-06 15:41:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98694852
+2013-10-06 15:42:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:42:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110698932
+2013-10-06 15:42:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 98970236
+2013-10-06 15:43:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 15:43:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110830419
+2013-10-06 15:43:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99125279
+2013-10-06 15:44:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 15:44:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110892966
+2013-10-06 15:44:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99153827
+2013-10-06 15:45:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:45:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 110959215
+2013-10-06 15:45:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99197844
+2013-10-06 15:46:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:46:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 111021514
+2013-10-06 15:46:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99228591
+2013-10-06 15:47:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:47:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 111275008
+2013-10-06 15:47:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99258629
+2013-10-06 15:48:42   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 15:48:42   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 111482713
+2013-10-06 15:48:43   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99302517
+2013-10-06 15:49:54   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:49:54   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 111558046
+2013-10-06 15:49:54   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99372856
+2013-10-06 15:51:44   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 15:51:44   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 111905457
+2013-10-06 15:51:44   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99517425
+2013-10-06 15:52:44   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 15:52:44   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 112131932
+2013-10-06 15:52:44   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99554039
+2013-10-06 15:54:24   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 15:54:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 112215261
+2013-10-06 15:54:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99605572
+2013-10-06 15:55:24   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:02:07   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:02:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 112689446
+2013-10-06 16:02:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99893543
+2013-10-06 16:03:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:03:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 112759239
+2013-10-06 16:03:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 99950673
+2013-10-06 16:04:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:04:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 114234480
+2013-10-06 16:04:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100094695
+2013-10-06 16:05:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:05:08   INFO - base app graph ok
+2013-10-06 16:05:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 120606144
+2013-10-06 16:05:08   INFO - base app graph ok
+2013-10-06 16:05:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100211930
+2013-10-06 16:05:08   INFO - base app graph ok
+2013-10-06 16:06:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:06:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 121984888
+2013-10-06 16:06:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100322978
+2013-10-06 16:07:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.11
+2013-10-06 16:07:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 129830475
+2013-10-06 16:07:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100788405
+2013-10-06 16:08:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 16:08:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130021194
+2013-10-06 16:08:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100809061
+2013-10-06 16:09:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:09:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130110307
+2013-10-06 16:09:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100827385
+2013-10-06 16:10:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:10:09   INFO - base app graph ok
+2013-10-06 16:10:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130168874
+2013-10-06 16:10:09   INFO - base app graph ok
+2013-10-06 16:10:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 100893326
+2013-10-06 16:10:09   INFO - base app graph ok
+2013-10-06 16:11:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:11:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130346854
+2013-10-06 16:11:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 101421653
+2013-10-06 16:12:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 16:12:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130567583
+2013-10-06 16:12:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 101743847
+2013-10-06 16:13:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:13:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130839502
+2013-10-06 16:13:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 101870709
+2013-10-06 16:14:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:14:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 130935824
+2013-10-06 16:14:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 101921295
+2013-10-06 16:15:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 16:15:10   INFO - base app graph ok
+2013-10-06 16:15:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 131090880
+2013-10-06 16:15:11   INFO - base app graph ok
+2013-10-06 16:15:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 102129245
+2013-10-06 16:15:11   INFO - base app graph ok
+2013-10-06 16:16:11   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:16:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 131192141
+2013-10-06 16:16:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 102150798
+2013-10-06 16:17:11   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:17:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 131286382
+2013-10-06 16:17:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 102320304
+2013-10-06 16:18:11   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:18:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 131565371
+2013-10-06 16:18:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 102399077
+2013-10-06 16:19:11   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.06
+2013-10-06 16:19:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 131626810
+2013-10-06 16:19:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 102439578
+2013-10-06 16:33:07   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:33:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133192797
+2013-10-06 16:33:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104067248
+2013-10-06 16:34:07   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 16:34:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133261243
+2013-10-06 16:34:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104145311
+2013-10-06 16:35:07   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 16:35:07   INFO - base app graph ok
+2013-10-06 16:35:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133337902
+2013-10-06 16:35:07   INFO - base app graph ok
+2013-10-06 16:35:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104381758
+2013-10-06 16:35:08   INFO - base app graph ok
+2013-10-06 16:36:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:36:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133454140
+2013-10-06 16:36:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104403356
+2013-10-06 16:37:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:37:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133503756
+2013-10-06 16:37:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104467932
+2013-10-06 16:38:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:38:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133659961
+2013-10-06 16:38:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104484124
+2013-10-06 16:39:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 16:39:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133778694
+2013-10-06 16:39:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104495822
+2013-10-06 16:40:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:40:09   INFO - base app graph ok
+2013-10-06 16:40:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133852253
+2013-10-06 16:40:09   INFO - base app graph ok
+2013-10-06 16:40:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104508169
+2013-10-06 16:40:09   INFO - base app graph ok
+2013-10-06 16:41:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:41:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 133900182
+2013-10-06 16:41:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104564446
+2013-10-06 16:42:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:42:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134055084
+2013-10-06 16:42:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104683630
+2013-10-06 16:43:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:43:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134471376
+2013-10-06 16:43:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104692094
+2013-10-06 16:44:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:44:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134602499
+2013-10-06 16:44:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104709671
+2013-10-06 16:45:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:45:58   INFO - base app graph ok
+2013-10-06 16:45:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134664520
+2013-10-06 16:45:58   INFO - base app graph ok
+2013-10-06 16:45:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104759864
+2013-10-06 16:45:58   INFO - base app graph ok
+2013-10-06 16:46:58   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:46:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134723104
+2013-10-06 16:46:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104775183
+2013-10-06 16:47:58   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 16:47:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 134880107
+2013-10-06 16:47:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104830593
+2013-10-06 16:48:58   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 16:48:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135128621
+2013-10-06 16:48:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104855000
+2013-10-06 16:49:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 16:49:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135329390
+2013-10-06 16:49:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104896387
+2013-10-06 16:50:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 16:50:59   INFO - base app graph ok
+2013-10-06 16:50:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135558438
+2013-10-06 16:50:59   INFO - base app graph ok
+2013-10-06 16:50:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104931138
+2013-10-06 16:50:59   INFO - base app graph ok
+2013-10-06 16:51:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:51:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135641534
+2013-10-06 16:52:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104946518
+2013-10-06 16:53:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:53:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135695875
+2013-10-06 16:53:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104965420
+2013-10-06 16:54:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:54:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 135746089
+2013-10-06 16:54:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 104989531
+2013-10-06 16:55:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:55:00   INFO - base app graph ok
+2013-10-06 16:55:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136111758
+2013-10-06 16:55:00   INFO - base app graph ok
+2013-10-06 16:55:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105049484
+2013-10-06 16:55:00   INFO - base app graph ok
+2013-10-06 16:56:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:56:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136188359
+2013-10-06 16:56:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105066845
+2013-10-06 16:57:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 16:57:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136227541
+2013-10-06 16:57:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105082555
+2013-10-06 16:58:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 16:58:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136283745
+2013-10-06 16:58:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105093561
+2013-10-06 16:59:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 16:59:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136335790
+2013-10-06 16:59:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105121346
+2013-10-06 17:00:02   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:00:02   INFO - base app graph ok
+2013-10-06 17:00:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136729044
+2013-10-06 17:00:02   INFO - base app graph ok
+2013-10-06 17:00:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105155939
+2013-10-06 17:00:02   INFO - base app graph ok
+2013-10-06 17:01:02   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:01:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136773191
+2013-10-06 17:01:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105181670
+2013-10-06 17:02:02   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:02:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 136809841
+2013-10-06 17:02:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105204118
+2013-10-06 17:03:56   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:03:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137120618
+2013-10-06 17:03:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105308029
+2013-10-06 17:04:56   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:04:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137225167
+2013-10-06 17:04:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105312751
+2013-10-06 17:05:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:05:57   INFO - base app graph ok
+2013-10-06 17:05:57   INFO - base app graph ok
+2013-10-06 17:05:57   INFO - base app graph ok
+2013-10-06 17:05:59   INFO - base app graph ok
+2013-10-06 17:06:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137401242
+2013-10-06 17:06:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105317712
+2013-10-06 17:07:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:07:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137459033
+2013-10-06 17:07:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105350696
+2013-10-06 17:08:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:08:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137639678
+2013-10-06 17:08:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105353132
+2013-10-06 17:09:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:09:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137673260
+2013-10-06 17:09:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105354670
+2013-10-06 17:10:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:10:00   INFO - base app graph ok
+2013-10-06 17:10:01   INFO - base app graph ok
+2013-10-06 17:10:01   INFO - base app graph ok
+2013-10-06 17:10:03   INFO - base app graph ok
+2013-10-06 17:10:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137713587
+2013-10-06 17:10:03   INFO - base app graph ok
+2013-10-06 17:10:04   INFO - base app graph ok
+2013-10-06 17:10:04   INFO - base app graph ok
+2013-10-06 17:10:06   INFO - base app graph ok
+2013-10-06 17:10:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105365245
+2013-10-06 17:10:06   INFO - base app graph ok
+2013-10-06 17:10:07   INFO - base app graph ok
+2013-10-06 17:10:07   INFO - base app graph ok
+2013-10-06 17:10:09   INFO - base app graph ok
+2013-10-06 17:11:09   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.09
+2013-10-06 17:11:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137832777
+2013-10-06 17:11:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105624015
+2013-10-06 17:12:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:12:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137874213
+2013-10-06 17:12:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 105904637
+2013-10-06 17:13:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.06
+2013-10-06 17:13:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 137925941
+2013-10-06 17:13:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106190923
+2013-10-06 17:14:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:14:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138112585
+2013-10-06 17:14:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106378471
+2013-10-06 17:15:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 17:15:11   INFO - base app graph ok
+2013-10-06 17:15:11   INFO - base app graph ok
+2013-10-06 17:15:11   INFO - base app graph ok
+2013-10-06 17:15:14   INFO - base app graph ok
+2013-10-06 17:15:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138173262
+2013-10-06 17:15:14   INFO - base app graph ok
+2013-10-06 17:15:14   INFO - base app graph ok
+2013-10-06 17:15:14   INFO - base app graph ok
+2013-10-06 17:15:16   INFO - base app graph ok
+2013-10-06 17:15:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106426719
+2013-10-06 17:15:17   INFO - base app graph ok
+2013-10-06 17:15:17   INFO - base app graph ok
+2013-10-06 17:15:17   INFO - base app graph ok
+2013-10-06 17:15:19   INFO - base app graph ok
+2013-10-06 17:16:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 17:16:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138213333
+2013-10-06 17:16:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106438408
+2013-10-06 17:17:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:17:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138244871
+2013-10-06 17:17:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106439902
+2013-10-06 17:18:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 17:18:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138292124
+2013-10-06 17:18:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106485247
+2013-10-06 17:19:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:19:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138478306
+2013-10-06 17:19:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106612882
+2013-10-06 17:20:20   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:20:20   INFO - base app graph ok
+2013-10-06 17:20:21   INFO - base app graph ok
+2013-10-06 17:20:21   INFO - base app graph ok
+2013-10-06 17:20:24   INFO - base app graph ok
+2013-10-06 17:20:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138619947
+2013-10-06 17:20:24   INFO - base app graph ok
+2013-10-06 17:20:24   INFO - base app graph ok
+2013-10-06 17:20:24   INFO - base app graph ok
+2013-10-06 17:20:26   INFO - base app graph ok
+2013-10-06 17:20:26   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106812571
+2013-10-06 17:20:27   INFO - base app graph ok
+2013-10-06 17:20:27   INFO - base app graph ok
+2013-10-06 17:20:27   INFO - base app graph ok
+2013-10-06 17:20:29   INFO - base app graph ok
+2013-10-06 17:21:29   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.15
+2013-10-06 17:21:29   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138794041
+2013-10-06 17:21:29   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106913583
+2013-10-06 17:22:30   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 17:22:30   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138832434
+2013-10-06 17:22:30   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106921830
+2013-10-06 17:23:30   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:23:30   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 138902841
+2013-10-06 17:23:30   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 106969199
+2013-10-06 17:24:55   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:24:55   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 139000920
+2013-10-06 17:24:55   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107151917
+2013-10-06 17:25:55   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:25:55   INFO - base app graph ok
+2013-10-06 17:25:55   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 139044075
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107158268
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:25:56   INFO - base app graph ok
+2013-10-06 17:26:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.06
+2013-10-06 17:26:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 139240541
+2013-10-06 17:26:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107201723
+2013-10-06 17:27:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:27:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 139333199
+2013-10-06 17:27:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107376151
+2013-10-06 17:28:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 17:28:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 139709548
+2013-10-06 17:28:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107420008
+2013-10-06 17:29:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:29:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140087529
+2013-10-06 17:29:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107492475
+2013-10-06 17:30:58   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140146802
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:58   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107583445
+2013-10-06 17:30:58   INFO - base app graph ok
+2013-10-06 17:30:59   INFO - base app graph ok
+2013-10-06 17:30:59   INFO - base app graph ok
+2013-10-06 17:30:59   INFO - base app graph ok
+2013-10-06 17:31:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:31:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140335788
+2013-10-06 17:31:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107656851
+2013-10-06 17:32:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:32:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140392612
+2013-10-06 17:32:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107723718
+2013-10-06 17:33:59   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:33:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140705887
+2013-10-06 17:33:59   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 107800397
+2013-10-06 17:35:00   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140772618
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:00   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108151294
+2013-10-06 17:35:00   INFO - base app graph ok
+2013-10-06 17:35:01   INFO - base app graph ok
+2013-10-06 17:35:01   INFO - base app graph ok
+2013-10-06 17:35:01   INFO - base app graph ok
+2013-10-06 17:36:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:36:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140836362
+2013-10-06 17:36:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108233560
+2013-10-06 17:37:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:37:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 140895088
+2013-10-06 17:37:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108293342
+2013-10-06 17:38:01   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 17:38:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 141193827
+2013-10-06 17:38:01   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108365163
+2013-10-06 17:39:02   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:39:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 141531634
+2013-10-06 17:39:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108441727
+2013-10-06 17:40:02   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 141674133
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:02   INFO - base app graph ok
+2013-10-06 17:40:03   INFO - base app graph ok
+2013-10-06 17:40:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108456494
+2013-10-06 17:40:03   INFO - base app graph ok
+2013-10-06 17:40:03   INFO - base app graph ok
+2013-10-06 17:40:03   INFO - base app graph ok
+2013-10-06 17:40:03   INFO - base app graph ok
+2013-10-06 17:41:03   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:41:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 141715334
+2013-10-06 17:41:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108461745
+2013-10-06 17:42:03   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:42:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142008988
+2013-10-06 17:42:03   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108463826
+2013-10-06 17:43:03   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 17:43:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142234384
+2013-10-06 17:43:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108572179
+2013-10-06 17:44:04   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:44:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142268948
+2013-10-06 17:44:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108573031
+2013-10-06 17:45:04   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:45:04   INFO - base app graph ok
+2013-10-06 17:45:04   INFO - base app graph ok
+2013-10-06 17:45:04   INFO - base app graph ok
+2013-10-06 17:45:04   INFO - base app graph ok
+2013-10-06 17:45:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142325075
+2013-10-06 17:45:04   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108576279
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:45:05   INFO - base app graph ok
+2013-10-06 17:46:05   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:46:05   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142367408
+2013-10-06 17:46:05   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108580760
+2013-10-06 17:47:05   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:47:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142404971
+2013-10-06 17:47:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108587190
+2013-10-06 17:48:06   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:48:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142444486
+2013-10-06 17:48:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108598225
+2013-10-06 17:49:06   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 17:49:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142482791
+2013-10-06 17:49:06   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108643206
+2013-10-06 17:50:06   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 17:50:06   INFO - base app graph ok
+2013-10-06 17:50:06   INFO - base app graph ok
+2013-10-06 17:50:06   INFO - base app graph ok
+2013-10-06 17:50:06   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142624524
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108646766
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:50:07   INFO - base app graph ok
+2013-10-06 17:51:07   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 17:51:07   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142696005
+2013-10-06 17:51:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108651427
+2013-10-06 17:52:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:52:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142735094
+2013-10-06 17:52:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108663581
+2013-10-06 17:53:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:53:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 142769257
+2013-10-06 17:53:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108678797
+2013-10-06 17:54:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:54:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 143210355
+2013-10-06 17:54:08   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108694230
+2013-10-06 17:55:08   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 17:55:08   INFO - base app graph ok
+2013-10-06 17:55:08   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 143701497
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108714133
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:09   INFO - base app graph ok
+2013-10-06 17:55:10   INFO - base app graph ok
+2013-10-06 17:56:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 17:56:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 143781226
+2013-10-06 17:56:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108715806
+2013-10-06 17:57:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:57:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 143964814
+2013-10-06 17:57:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108716754
+2013-10-06 17:58:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:58:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 144189030
+2013-10-06 17:58:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108717870
+2013-10-06 17:59:10   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 17:59:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 144349079
+2013-10-06 17:59:10   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108733627
+2013-10-06 18:00:11   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.08
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 144637861
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:11   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108749134
+2013-10-06 18:00:11   INFO - base app graph ok
+2013-10-06 18:00:12   INFO - base app graph ok
+2013-10-06 18:00:12   INFO - base app graph ok
+2013-10-06 18:00:12   INFO - base app graph ok
+2013-10-06 18:01:12   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 18:01:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 144966771
+2013-10-06 18:01:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108777426
+2013-10-06 18:02:12   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 18:02:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145151587
+2013-10-06 18:02:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108782388
+2013-10-06 18:03:12   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:03:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145262989
+2013-10-06 18:03:12   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108783504
+2013-10-06 18:04:13   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:04:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145340135
+2013-10-06 18:04:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108817844
+2013-10-06 18:05:13   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145415851
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:13   INFO - base app graph ok
+2013-10-06 18:05:14   INFO - base app graph ok
+2013-10-06 18:05:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108821768
+2013-10-06 18:05:14   INFO - base app graph ok
+2013-10-06 18:05:14   INFO - base app graph ok
+2013-10-06 18:05:14   INFO - base app graph ok
+2013-10-06 18:05:14   INFO - base app graph ok
+2013-10-06 18:06:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:06:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145517820
+2013-10-06 18:06:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108823243
+2013-10-06 18:07:14   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:07:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145844510
+2013-10-06 18:07:14   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108839942
+2013-10-06 18:08:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:08:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 145897286
+2013-10-06 18:08:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108840884
+2013-10-06 18:09:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:09:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146062751
+2013-10-06 18:09:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 108997904
+2013-10-06 18:10:15   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:10:15   INFO - base app graph ok
+2013-10-06 18:10:15   INFO - base app graph ok
+2013-10-06 18:10:15   INFO - base app graph ok
+2013-10-06 18:10:15   INFO - base app graph ok
+2013-10-06 18:10:15   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146135675
+2013-10-06 18:10:15   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109003226
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:10:16   INFO - base app graph ok
+2013-10-06 18:11:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.03
+2013-10-06 18:11:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146257096
+2013-10-06 18:11:16   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109202092
+2013-10-06 18:12:16   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 18:12:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146399683
+2013-10-06 18:12:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109203189
+2013-10-06 18:13:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.05
+2013-10-06 18:13:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146514992
+2013-10-06 18:13:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109362370
+2013-10-06 18:14:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 18:14:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 146899786
+2013-10-06 18:14:17   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109470561
+2013-10-06 18:15:17   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:15:17   INFO - base app graph ok
+2013-10-06 18:15:17   INFO - base app graph ok
+2013-10-06 18:15:17   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147162237
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109485238
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:15:18   INFO - base app graph ok
+2013-10-06 18:16:18   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:16:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147307734
+2013-10-06 18:16:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109496067
+2013-10-06 18:17:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:17:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147457276
+2013-10-06 18:17:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109497345
+2013-10-06 18:18:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:18:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147554604
+2013-10-06 18:18:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109574022
+2013-10-06 18:19:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:19:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147594408
+2013-10-06 18:19:19   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109609126
+2013-10-06 18:20:19   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147738521
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109633068
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:20   INFO - base app graph ok
+2013-10-06 18:20:21   INFO - base app graph ok
+2013-10-06 18:20:21   INFO - base app graph ok
+2013-10-06 18:21:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:21:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147771087
+2013-10-06 18:21:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109646244
+2013-10-06 18:22:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:22:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147800905
+2013-10-06 18:22:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109647120
+2013-10-06 18:23:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:23:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147831839
+2013-10-06 18:23:21   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109649061
+2013-10-06 18:24:21   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
+2013-10-06 18:24:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147896123
+2013-10-06 18:24:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109653115
+2013-10-06 18:25:22   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.02
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147946798
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:22   INFO - base app graph ok
+2013-10-06 18:25:23   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109829205
+2013-10-06 18:25:23   INFO - base app graph ok
+2013-10-06 18:25:23   INFO - base app graph ok
+2013-10-06 18:25:23   INFO - base app graph ok
+2013-10-06 18:25:23   INFO - base app graph ok
+2013-10-06 18:26:23   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 18:26:23   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 147981697
+2013-10-06 18:26:23   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109841436
+2013-10-06 18:27:23   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 18:27:23   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148015163
+2013-10-06 18:27:23   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109842288
+2013-10-06 18:28:23   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:28:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148050205
+2013-10-06 18:28:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109854599
+2013-10-06 18:29:24   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:29:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148169530
+2013-10-06 18:29:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109871884
+2013-10-06 18:30:24   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.13
+2013-10-06 18:30:24   INFO - base app graph ok
+2013-10-06 18:30:24   INFO - base app graph ok
+2013-10-06 18:30:24   INFO - base app graph ok
+2013-10-06 18:30:24   INFO - base app graph ok
+2013-10-06 18:30:24   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148432653
+2013-10-06 18:30:24   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109902283
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:30:25   INFO - base app graph ok
+2013-10-06 18:31:25   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.04
+2013-10-06 18:31:25   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148565902
+2013-10-06 18:31:25   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109919659
+2013-10-06 18:32:25   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.01
+2013-10-06 18:32:26   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148601346
+2013-10-06 18:32:26   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109926875
+2013-10-06 18:33:26   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.00
+2013-10-06 18:33:26   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 148634129
+2013-10-06 18:33:26   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 109930591

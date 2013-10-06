@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>测试pure</title>
+    <title>chenqing.org 服务器状态图</title>
     <link rel="stylesheet" href="static_files/css/pure-min.css">
-    <link rel="stylesheet" href="static_files/css/ng.css">
     <link rel="stylesheet" href="static_files/css/baby-blue.css">
 <style type="text/css">body {
  text-shadow: 0px 0px 1px #909090 !important;
@@ -23,15 +22,15 @@
         <ul>
 
             <li class=" ">
-                <a href="/hello">汇总图</a>
+                <a href="/mini">汇总图</a>
             </li>
 
             <li class=" ">
-                <a href="">流量图</a>
+                <a href="/network">流量图</a>
             </li>
 
             <li class=" ">
-                <a href="/forms/">其它</a>
+                <a href="/other">其它</a>
             </li>
         </ul>
     </div>
@@ -41,9 +40,7 @@
 <div class="pure-u-1" id="main">
 
 <div class="header">
-
     <h2>chenqing.org mini ng 图</h2>
-
 </div>
 
 
@@ -51,9 +48,16 @@
 
 
     <div class="layout-item pure-g-r">
-
-                <img src="./static_files/pic/rrd/ng-mini.png">
-
+		<img src="./static_files/pic/rrd/ng-mini-day.png">
+    </div>
+    <div class="layout-item pure-g-r">
+		<img src="./static_files/pic/rrd/ng-mini-week.png">
+    </div>
+    <div class="layout-item pure-g-r">
+		<img src="./static_files/pic/rrd/ng-mini-month.png">
+    </div>
+    <div class="layout-item pure-g-r">
+		<img src="./static_files/pic/rrd/ng-mini-year.png">
     </div>
 
 </div>

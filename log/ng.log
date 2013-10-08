@@ -2118,11 +2118,3 @@
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_CONNECT_COUNT.rrd value is 1029
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 52102528252608
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 4298597041938
-2013-10-08 16:22:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.07
-2013-10-08 16:22:57   INFO - update /root/ng-mini/rrd/base_CONNECT_COUNT.rrd value is 1
-2013-10-08 16:22:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 
-2013-10-08 16:22:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 
-2013-10-08 16:23:57   INFO - update /root/ng-mini/rrd/base_LOAD_LAST_MINUTE.rrd value is 0.10
-2013-10-08 16:23:57   INFO - update /root/ng-mini/rrd/base_CONNECT_COUNT.rrd value is 1
-2013-10-08 16:23:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 
-2013-10-08 16:23:57   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 

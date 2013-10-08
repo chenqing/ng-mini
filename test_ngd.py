@@ -45,7 +45,7 @@ class Ngd(Daemon):
         a micro web server use bottle
         """
         os.chdir(nginit.APP_PATH + '/' + 'web')
-        child = subprocess.Popen(['python','ngweb.py'])
+        child = subprocess.Popen([nginit.PY_PATH,'ngweb.py'])
         if not child.pid:
             log.error('web server start failed')
             sys.exit(2)
@@ -90,11 +90,12 @@ class Ngd(Daemon):
                             value = get_output(yaml['CmdLine'])
                     ngrrd.update(rrd_file,str(value).rstrip(','))
                     log.info('update ' + rrd_file + ' value is ' + str(value).rstrip(','))
-                    if datetime.now().minute % 5 == 0:
+                    if datetime.now().minute % 2 == 0:
                         hostname = get_output('hostname')
                         for dt in ['day','week','month','year']:
-                            title = hostname + '性能数据' + dt + '图'
-			    ngrrd.graph_combain('base',title,'汇总图bit/s',dt)
+                            title =  hostname + ' Last update:'  + time.strftime("%Y-%m-%d %H:%M:%S",time.localtime()) + ' ' + dt +' Graph' 
+			    print title
+			    ngrrd.graph_combain('base',title,'cpis bit/s',dt)
 			    log.info('base app graph ok')
 
 if __name__ == '__main__':

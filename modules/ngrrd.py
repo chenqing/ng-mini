@@ -123,6 +123,125 @@ def graph_combain(app_name,title,vertical,date='day'):
     graph_total = graph_header + graph_body_top + ' ' + graph_body_center + ' ' + graph_body_bottom
     subprocess.call(str(graph_total),shell=True)
 
+def graph_combain_without_network(app_name,title,vertical,date='day'):
+    '''
+    the app_name is also the yaml file's name,title is the rrdtool pic's title
+    '''
+    dt = {'day':86400,'week':604800,'month':2592000,'year':31536000}
+    if date not in ['day','week','month','year']:
+        date = 'day'
+    font = nginit.FONT_PATH + '/' + 'msyh.ttf'
+    graph_header = '%s graph %s/ng-mini-%s.png -w 600 -h 300 \
+    -t "%s" -v "%s" \
+    -n TITLE:12:%s  -n LEGEND:8:%s \
+    --start -%s --end now \
+    --slope-mode \
+    --upper-limit 1500 \
+    -Y -X 0    --upper-limit 1500      -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
+    if date == 'day':
+        graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H" '
+
+    yaml_file = nginit.YAML_PATH +'/' + app_name + '.yaml'
+    app = ngyaml(yaml_file)
+    graph_body_top = ''
+    graph_body_center = ''
+    graph_body_bottom = ''
+    DS = []
+    DEF = []
+    CDEF = []
+    METHOD = []
+    COLOR = []
+    RRA = ['LAST','MAX','AVERAGE','MIN']
+    i = 0
+    for a in app:
+        if a['CreatePic'] and not a['Info'].startswith('BAND_WIDTH'):
+            rrd_file = nginit.RRD_PATH + '/' + app_name + '_' +a['Info'] + '.rrd'
+            rrd_ds = a['RrdDs']
+            DS.append(rrd_ds)
+            METHOD.append(a['RrdMethod'].upper())
+            COLOR.append('#'+a['Color'])
+            DEF.append('DEF:v'+str(i)+'='+rrd_file+':'+rrd_ds+':AVERAGE')
+            rrd_range = str(a['Range']).split(',')[0]
+            if rrd_range.startswith('-'):
+                CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range).replace('-','')+', - ')
+            else:
+                CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range)+',+  ')
+            graph_body_top += str(DEF[i] +' '+CDEF[i] )
+            graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                                   ' GPRINT:v'+str(i)+':LAST:"LAST %6.2lf " '+\
+                                    ' GPRINT:v'+str(i)+':MAX:"MAX %6.2lf " '+\
+                                   ' GPRINT:v'+str(i)+':AVERAGE:"AVERAGE %6.2lf " '+\
+                                   ' GPRINT:v'+str(i)+':MIN:"MIN %6.2lf " '+' COMMENT:"\\n" ')
+
+            i = i+1
+            if i >len(app):
+                break
+    graph_total = graph_header + graph_body_top + ' ' + graph_body_center + ' ' + graph_body_bottom
+    subprocess.call(str(graph_total),shell=True)
+
+def graph_network(app_name,title,vertical,date='day'):
+    '''
+    the app_name is also the yaml file's name,title is the rrdtool pic's title
+    '''
+    dt = {'day':86400,'week':604800,'month':2592000,'year':31536000}
+    if date not in ['day','week','month','year']:
+        date = 'day'
+    font = nginit.FONT_PATH + '/' + 'msyh.ttf'
+    graph_header = '%s graph %s/ng-mini-network-%s.png -w 600 -h 300 \
+    -t "%s" -v "%s" \
+    -n TITLE:12:%s  -n LEGEND:8:%s \
+    --start -%s --end now \
+    --slope-mode \
+    --upper-limit 1500 \
+    -Y  --base=1000   --upper-limit 1500      -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
+    if date == 'day':
+        graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H" '
+
+    yaml_file = nginit.YAML_PATH +'/' + app_name + '.yaml'
+    app = ngyaml(yaml_file)
+    graph_body_top = ''
+    graph_body_center = ''
+    graph_body_bottom = ''
+    DS = []
+    DEF = []
+    CDEF = []
+    METHOD = []
+    COLOR = []
+    RRA = ['LAST','MAX','AVERAGE','MIN']
+    i = 0
+    for a in app:
+        if a['CreatePic'] and a['Info'].startswith('BAND_WIDTH'):
+            rrd_file = nginit.RRD_PATH + '/' + app_name + '_' +a['Info'] + '.rrd'
+            rrd_ds = a['RrdDs']
+            DS.append(rrd_ds)
+            METHOD.append(a['RrdMethod'].upper())
+            COLOR.append('#'+a['Color'])
+            DEF.append('DEF:v'+str(i)+'='+rrd_file+':'+rrd_ds+':AVERAGE')
+            rrd_range = str(a['Range']).split(',')[0]
+            if rrd_range.startswith('-'):
+                CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+',8,*, ' + str(rrd_range).replace('-','')+', - ')
+            else:
+                CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+',8,*,' + str(rrd_range)+',+ ')
+            graph_body_top += str(DEF[i] +' '+CDEF[i] )
+            graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                                   ' GPRINT:t'+str(i)+':LAST:"LAST %6.2lf %Sbps" '+\
+                                    ' GPRINT:t'+str(i)+':MAX:"MAX %6.2lf %Sbps" '+\
+                                   ' GPRINT:t'+str(i)+':AVERAGE:"AVERAGE %6.2lf %Sbps" '+\
+                                   ' GPRINT:t'+str(i)+':MIN:"MIN %6.2lf %Sbps" '+' COMMENT:"\\n" ')
+            	
+            i = i+1
+            if i >len(app):
+                break
+    graph_total = graph_header + graph_body_top + ' ' + graph_body_center + ' ' + graph_body_bottom
+    subprocess.call(str(graph_total),shell=True)
+
+if __name__ == '__main__':
+    yaml_file = nginit.YAML_PATH +'/base.yaml'
+    app = ngyaml(yaml_file)
+    graph_combain('base',time.strftime("%Y-%m-%d-%H:%M:%S",time.localtime()),'汇总图','day')
+
+
+
 if __name__ == '__main__':
     yaml_file = nginit.YAML_PATH +'/base.yaml'
     app = ngyaml(yaml_file)

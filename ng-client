@@ -94,8 +94,8 @@ class Ngd(Daemon):
                         hostname = get_output('hostname')
                         for dt in ['day','week','month','year']:
                             title =  hostname + ' Last update:'  + time.strftime("%Y-%m-%d %H:%M:%S",time.localtime()) + ' ' + dt +' Graph' 
-			    print title
-			    ngrrd.graph_combain('base',title,'cpis bit/s',dt)
+			    ngrrd.graph_combain_without_network('base',title,'cpis',dt)
+			    ngrrd.graph_network('base',title,'cpis bit/s',dt)
 			    log.info('base app graph ok')
 
 if __name__ == '__main__':

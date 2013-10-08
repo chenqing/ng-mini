@@ -1,6 +1,6 @@
 #!/bin/bash
 # script for start and stop ng-client
-. /etc/rc.d/init.d/functions
+. /etc/rc.d/init.d/functions 2>/dev/null
 ulimit -n 500000
 app_path='/usr/local/ng-mini/'
 app='ng-client'
@@ -10,7 +10,9 @@ function help()
 	echo 'ng-client [start|stop|restart]'
 }
 
-if which python2.6 >/dev/null 2>&1 || which python26 >/dev/null 2>&1;then
+if which python2.7 >/dev/null 2>&1 || which python27 >/dev/null 2>&1;then
+	PYTHON_PATH=`which python2.7 2>/dev/null  || which python27 2>/dev/nul`
+elif which python2.6 >/dev/null 2>&1 || which python26 >/dev/null 2>&1;then
 	PYTHON_PATH=`which python2.6 2>/dev/null  || which python26 2>/dev/nul`
 elif [ $(`which python` -V|awk -F\. '{if($2 >4){print 1}else{print 0}}') == 1 ];then
 	PYTHON_PATH=`which python`

@@ -19,6 +19,7 @@ if subprocess.call('which python2.7 >/dev/null 2>&1 || which python27 >/dev/null
     PY_PATH = get_output('which python2.7 2>/dev/null || which python27')
 elif subprocess.call('which python2.6 >/dev/null 2>&1 || which python26 >/dev/null 2>&1',shell=True) == 0:
     PY_PATH = get_output('which python2.6 2>/dev/null || which python26 2>/dev/null')
+PY_PATH = PY_PATH.replace('\n','')
 '''
     定义程序的名称，版本，更新日期，作者信息
 '''
@@ -59,6 +60,8 @@ except:
 
 if not os.path.isfile(RRDTOOL_PATH):
     RRDTOOL_PATH = get_output('/usr/bin/which rrdtool')
+
+RRDTOOL_PATH = RRDTOOL_PATH.replace('\n','')
 
 
 #pid文件

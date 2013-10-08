@@ -26,7 +26,7 @@ class Ngd(Daemon):
         """
         Daemon.__init__(self, pidfile, stdin='/dev/null', stdout='/dev/null', stderr='/dev/null')
         self._pre_check()
-#        self.run()
+#	self.run()
 
     def _pre_check(self):
         """
@@ -45,10 +45,10 @@ class Ngd(Daemon):
         a micro web server use bottle
         """
         os.chdir(nginit.APP_PATH + '/' + 'web')
-        child = subprocess.Popen([nginit.PY_PATH,'ngweb.py'])
+	py_path = nginit.PY_PATH.replace('\n','')
+        child = subprocess.Popen([py_path,'ngweb.py'])
         if not child.pid:
             log.error('web server start failed')
-            sys.exit(2)
 
     def stop(self):
         """
@@ -69,7 +69,7 @@ class Ngd(Daemon):
         try:
             self._start_web_server()
         except:
-            pass
+            log.error('start web server failed')
 
         while True:
             time.sleep(60)
@@ -94,6 +94,7 @@ class Ngd(Daemon):
                         hostname = get_output('hostname')
                         for dt in ['day','week','month','year']:
                             title =  hostname + ' Last update:'  + time.strftime("%Y-%m-%d %H:%M:%S",time.localtime()) + ' ' + dt +' Graph' 
+			    title = title.replace('\n','')
 			    ngrrd.graph_combain_without_network('base',title,'cpis',dt)
 			    ngrrd.graph_network('base',title,'cpis bit/s',dt)
 			    log.info('base app graph ok')

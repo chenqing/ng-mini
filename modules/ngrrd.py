@@ -63,13 +63,12 @@ def graph_combain(app_name,title,vertical,date='day'):
         date = 'day'
     font = nginit.FONT_PATH + '/' + 'msyh.ttf'
     graph_header = '%s graph %s/ng-mini-%s.png -w 600 -h 300 \
-    -t %s -v %s \
+    -t "%s" -v "%s" \
     -n TITLE:12:%s  -n LEGEND:8:%s \
     --start -%s --end now \
     --slope-mode \
     --upper-limit 1500 \
-    --disable-rrdtool-tag \
-    -Y  --base=1000   --upper-limit 1500     --disable-rrdtool-tag  -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
+    -Y  --base=1000   --upper-limit 1500      -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
     if date == 'day':
         graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H" '
 
@@ -77,7 +76,6 @@ def graph_combain(app_name,title,vertical,date='day'):
     app = ngyaml(yaml_file)
     graph_body_top = ''
     graph_body_center = ''
-    graph_body_center += 'COMMENT:"\\n"         COMMENT:"\\n"         COMMENT:"\\t\\t最新值\\t\\t 平均值\\t\\t  最大值\\t\\t最小值\\n" '
     graph_body_bottom = ''
     DS = []
     DEF = []
@@ -87,40 +85,47 @@ def graph_combain(app_name,title,vertical,date='day'):
     RRA = ['LAST','MAX','AVERAGE','MIN']
     i = 0
     for a in app:
-        rrd_file = nginit.RRD_PATH + '/' + app_name + '_' +a['Info'] + '.rrd'
-        rrd_ds = a['RrdDs']
-        DS.append(rrd_ds)
-        METHOD.append(a['RrdMethod'].upper())
-        COLOR.append('#'+a['Color'])
-        DEF.append('DEF:v'+str(i)+'='+rrd_file+':'+rrd_ds+':AVERAGE')
-        rrd_range = str(a['Range']).split(',')[0]
-        if rrd_range.startswith('-'):
-            CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range).replace('-','')+', -')
-        else:
-            CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range)+',+  ')
-        graph_body_top += str(DEF[i] +' '+CDEF[i] )
-	if a['Info'].startswith('BAND_WIDTH'):
-        	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
-                               ' GPRINT:v'+str(i)+':LAST:"最新值 %12.2lf %Sbps" '+\
-                                ' GPRINT:v'+str(i)+':MAX:"最大值 %12.2lf %Sbps" '+\
-                               ' GPRINT:v'+str(i)+':AVERAGE:"平均值 %12.2lf %Sbps" '+\
-                               ' GPRINT:v'+str(i)+':MIN:"最小值 %12.2lf %Sbps" '+' COMMENT:"\\n" ')
-	else:
-        	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
-                               ' GPRINT:v'+str(i)+':LAST:"最新值 %12.2lf " '+\
-                                ' GPRINT:v'+str(i)+':MAX:"最大值 %12.2lf " '+\
-                               ' GPRINT:v'+str(i)+':AVERAGE:"平均值 %12.2lf " '+\
-                               ' GPRINT:v'+str(i)+':MIN:"最小值 %12.2lf " '+' COMMENT:"\\n" ')
-		
-        i = i+1
-        if i >len(app):
-            break
+        if a['CreatePic']:
+            rrd_file = nginit.RRD_PATH + '/' + app_name + '_' +a['Info'] + '.rrd'
+            rrd_ds = a['RrdDs']
+            DS.append(rrd_ds)
+            METHOD.append(a['RrdMethod'].upper())
+            COLOR.append('#'+a['Color'])
+            DEF.append('DEF:v'+str(i)+'='+rrd_file+':'+rrd_ds+':AVERAGE')
+            rrd_range = str(a['Range']).split(',')[0]
+            if rrd_range.startswith('-'):
+                if a['Info'].startswith('BAND_WIDTH'):
+                    CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+',8,*, ' + str(rrd_range).replace('-','')+', - ')
+		else:
+                    CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range).replace('-','')+', - ')
+            else:
+                if a['Info'].startswith('BAND_WIDTH'):
+                    CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+',8,*,' + str(rrd_range)+',+ ')
+		else:
+                    CDEF.append('CDEF:t'+str(i)+'=v'+str(i)+','+str(rrd_range)+',+  ')
+            graph_body_top += str(DEF[i] +' '+CDEF[i] )
+            if a['Info'].startswith('BAND_WIDTH'):
+            	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                                   ' GPRINT:t'+str(i)+':LAST:"LAST %6.2lf %Sbps" '+\
+                                    ' GPRINT:t'+str(i)+':MAX:"MAX %6.2lf %Sbps" '+\
+                                   ' GPRINT:t'+str(i)+':AVERAGE:"AVERAGE %6.2lf %Sbps" '+\
+                                   ' GPRINT:t'+str(i)+':MIN:"MIN %6.2lf %Sbps" '+' COMMENT:"\\n" ')
+            else:
+            	graph_body_bottom += str(METHOD[i]+':t'+str(i)+COLOR[i]+':'+ '\" ' + DS[i] + '\"' +\
+                                   ' GPRINT:v'+str(i)+':LAST:"LAST %6.2lf " '+\
+                                    ' GPRINT:v'+str(i)+':MAX:"MAX %6.2lf " '+\
+                                   ' GPRINT:v'+str(i)+':AVERAGE:"AVERAGE %6.2lf " '+\
+                                   ' GPRINT:v'+str(i)+':MIN:"MIN %6.2lf " '+' COMMENT:"\\n" ')
+            	
+            i = i+1
+            if i >len(app):
+                break
     graph_total = graph_header + graph_body_top + ' ' + graph_body_center + ' ' + graph_body_bottom
     subprocess.call(str(graph_total),shell=True)
 
 if __name__ == '__main__':
     yaml_file = nginit.YAML_PATH +'/base.yaml'
     app = ngyaml(yaml_file)
-    graph_combain('base','本机rrdtool','汇总图','year')
+    graph_combain('base',time.strftime("%Y-%m-%d-%H:%M:%S",time.localtime()),'汇总图','day')
 
 

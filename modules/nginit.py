@@ -1,10 +1,24 @@
 #!/usr/bin/env python
 #coding=utf-8
 import os
+import sys
 import ConfigParser
+import subprocess
 from ngsubprocess import get_output
 
-
+'''
+check python version,if version lt 2.5,mini-ng will not be run
+'''
+py   = sys.version_info
+py25 = py <  (2, 5, 0)
+if py25:
+    print 'python version is need great than 2.5'
+    sys.exit(3)
+PY_PATH=''
+if subprocess.call('which python2.7 >/dev/null 2>&1 || which python27 >/dev/null 2>&1',shell=True) == 0:
+    PY_PATH = get_output('which python2.7 2>/dev/null || which python27')
+elif subprocess.call('which python2.6 >/dev/null 2>&1 || which python26 >/dev/null 2>&1',shell=True) == 0:
+    PY_PATH = get_output('which python2.6 2>/dev/null || which python26 2>/dev/null')
 '''
     定义程序的名称，版本，更新日期，作者信息
 '''
@@ -15,7 +29,7 @@ APP_AUTHOR = 'qing.chen'
 '''
     处理程序的路径,可能需要手动更改
 '''
-APP_PATH = '/root/ng-mini'
+APP_PATH = '/usr/local/ng-mini'
 #APP_PATH = os.path.abspath('.')
 
 CONFIG_PATH = os.path.join(APP_PATH ,'etc')

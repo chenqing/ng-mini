@@ -2,14 +2,15 @@
 
 from bottle import route ,run,template,TEMPLATE_PATH,static_file,TEMPLATES
 TEMPLATE_PATH = 'views'
-
+from commands import getoutput
+hostname = getoutput('hostname')
 @route('/')
 @route('/network')
 @route('/mini')
 @route('/other')
 def greet():
     TEMPLATES.clear()
-    return template('index')
+    return template('index',host=hostname)
 @route('/static_files/css/<filename>')
 def server_static(filename):
     return static_file(filename,root='./static_files/css/', mimetype='text/css')
@@ -19,4 +20,4 @@ def server_static(filename):
 @route('/static_files/js/<filename>')
 def server_static(filename):
     return static_file(filename,root='./static_files/js')
-run(server="paste",host='0.0.0.0', port=8083)
+run(host='0.0.0.0', port=65533)

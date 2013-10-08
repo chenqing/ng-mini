@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>chenqing.org 服务器状态图</title>
+    <title>{{host}} 服务器状态图</title>
     <link rel="stylesheet" href="static_files/css/pure-min.css">
     <link rel="stylesheet" href="static_files/css/baby-blue.css">
 <style type="text/css">body {
@@ -40,7 +40,7 @@
 <div class="pure-u-1" id="main">
 
 <div class="header">
-    <h2>chenqing.org mini ng 图</h2>
+    <h2>{{host}} mini ng 图</h2>
 </div>
 
 

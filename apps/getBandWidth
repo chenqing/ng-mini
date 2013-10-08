@@ -1,10 +1,24 @@
 #!/bin/bash
-in=`snmpget -v 2c -c public localhost ifInOctets.3|awk '{print $NF}'`
-out=`snmpget -v 2c -c public localhost ifOutOctets.3|awk '{print $NF}'`
-if [[ $1 == "in" ]];then
-    echo $in
+# this script is collect net-flow in Linux ,read /proc/net/dev
+# which have two parameter ,first one is the interface name(eth0,eth1,bond0,etc.)
+# the second one is in or out 
+# author : qing.chen
+# create : 2013-10-07
+
+#[ ! -z $1 ] && interface=$1 || interface='eth0'
+#[ ! -z $2 ] && in_or_out=$2 || in_or_out='out'
+if [ "$#" -lt 2 ];then
+	echo "error: script need two parameter"
+	echo "Useage: `basename $0` [eth0|eth1|bond0...]  [in|out]"
 fi
 
-if [[ $1 == 'out' ]];then
-    echo $out
+file="/proc/net/dev"
+interface=$1
+in_or_out=$2
+
+if [ $in_or_out == 'in' ];then
+	awk  '/'$interface'/{sub(":","",$1);print $2}' $file
+fi
+if [ $in_or_out == 'out' ];then
+	awk  '/'$interface'/{sub(":","",$1);print $10}' $file
 fi

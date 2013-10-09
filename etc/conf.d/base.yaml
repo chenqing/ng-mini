@@ -11,7 +11,7 @@
   OutPutCenter: current
   CreatePic:    yes
   Color:        FF0000
-  Range:        300,400
+  Range:        0,100
   UseApp:       no
   CmdLine:      w |head -1 |awk '{print $(NF-2)}'
  -
@@ -59,4 +59,36 @@
   Range:        100,400
   UseApp:       yes
   CmdLine:      getBandWidth bond0 in
+
+ -
+  Info:         PING_LOSS
+  OutPutName:   Loss(last minute)
+  Application:  base
+  Type:         server
+  TimeInterval: 1
+  RrdDs:        Loss
+  RrdDst:       GAUGE
+  RrdMethod:    LINE1
+  OutPutCenter: current
+  CreatePic:    yes
+  Color:        FF00FF
+  Range:        100,200
+  UseApp:       yes
+  CmdLine:      getPing `ip route |awk '/default/{print $3}'` |awk '{print $1}'
+
+ -
+  Info:         PING_RTT_AVG
+  OutPutName:   Rtt_Avg(last minute)
+  Application:  base
+  Type:         server
+  TimeInterval: 1
+  RrdDs:        Rtt_Avg
+  RrdDst:       GAUGE
+  RrdMethod:    LINE1
+  OutPutCenter: current
+  CreatePic:    yes
+  Color:        660000
+  Range:        100,200
+  UseApp:       yes
+  CmdLine:      getPing `ip route |awk '/default/{print $3}'` |awk '{print $3}'
 

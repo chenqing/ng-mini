@@ -1,0 +1,17 @@
+#!/bin/bash
+# this script if for collect network ping's data
+# Input your ip address,Output loss ,rtt min,rtt avg,rtt max
+# author: qing.chen
+
+function help()
+{
+	echo 'Useage: getPing ipaddr '
+	exit 250
+}
+if [ $#  -ne  1 ];then
+	help
+fi
+
+ip=$1
+
+ping ${ip} -f -c 100 |awk '/packets/{printf "%s ", sub("%","",$6)};BEGIN{FS="/";};/rtt/{sub("mdev =","",$4);print $4,$5,$6}'

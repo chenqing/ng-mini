@@ -136,8 +136,7 @@ def graph_combain_without_network(app_name,title,vertical,date='day'):
     -n TITLE:12:%s  -n LEGEND:8:%s \
     --start -%s --end now \
     --slope-mode \
-    --upper-limit 1500 \
-    -Y -X 0    --upper-limit 1500      -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
+    -Y -X 0        -l 0 ' %(nginit.RRDTOOL_PATH,nginit.PIC_PATH,date,title,vertical,font,font,dt[date])
     if date == 'day':
         graph_header += '-x MINUTE:30:HOUR:1:HOUR:1:0:"%H" '
 
@@ -159,7 +158,7 @@ def graph_combain_without_network(app_name,title,vertical,date='day'):
             rrd_ds = a['RrdDs']
             DS.append(rrd_ds)
             METHOD.append(a['RrdMethod'].upper())
-            COLOR.append('#'+a['Color'])
+            COLOR.append('#' + str(a['Color']))
             DEF.append('DEF:v'+str(i)+'='+rrd_file+':'+rrd_ds+':AVERAGE')
             rrd_range = str(a['Range']).split(',')[0]
             if rrd_range.startswith('-'):

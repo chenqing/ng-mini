@@ -2118,3 +2118,5 @@
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_CONNECT_COUNT.rrd value is 1029
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_OUT.rrd value is 52102528252608
 2013-10-08 14:39:04   INFO - update /root/ng-mini/rrd/base_BAND_WIDTH_IN.rrd value is 4298597041938
+2013-10-10 22:58:29   INFO - report {'load': 12, 'hostname': 'chenqing.org'} to localhostsuccess
+2013-10-10 23:25:46   INFO - report {'load': 15, 'hostname': 'chenqing.org'} to localhost success

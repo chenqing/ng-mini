@@ -241,9 +241,3 @@ if __name__ == '__main__':
 
 
 
-if __name__ == '__main__':
-    yaml_file = nginit.YAML_PATH +'/base.yaml'
-    app = ngyaml(yaml_file)
-    graph_combain('base',time.strftime("%Y-%m-%d-%H:%M:%S",time.localtime()),'汇总图','day')
-
-

@@ -30,7 +30,7 @@ APP_AUTHOR = 'qing.chen'
 '''
     处理程序的路径,可能需要手动更改
 '''
-APP_PATH = '/usr/local/ng-mini'
+APP_PATH = '/data/ng-mini'
 #APP_PATH = os.path.abspath('.')
 
 CONFIG_PATH = os.path.join(APP_PATH ,'etc')
@@ -106,3 +106,13 @@ try:
     APPS_PATH = os.path.join(APP_PATH,cf.get('base','apps_path'))
 except:
     APPS_PATH = APP_PATH + '/' + 'apps'
+
+#mysql database config
+try:
+    MYSQL_HOST=cf.get('mysql','host')
+    MYSQL_USER=cf.get('mysql','user')
+    MYSQL_PASSWD=cf.get('mysql','passwd')
+    MYSQL_DATABASE=cf.get('mysql','database')
+except:
+    MYSQL_HOST=''
+    MYSQL_USER=''

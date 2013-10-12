@@ -116,3 +116,13 @@ try:
 except:
     MYSQL_HOST=''
     MYSQL_USER=''
+#mongodb database config
+try:
+    MONGO_HOST=cf.get('mongodb','host')
+    MONGO_USER=cf.get('mongodb','user')
+    MONGO_PORT=int(cf.get('mongodb','port'))
+    MONGO_PASSWD=cf.get('mongodb','passwd')
+    MONGO_DATABASE=cf.get('mongodb','database')
+except:
+    MONGO_HOST=''
+    MONGO_USER=''

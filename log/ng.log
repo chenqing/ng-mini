@@ -1,0 +1,4 @@
+2013-10-12 19:54:25   INFO - report {'load': 15, 'hostname': 'chenqing.org', '_id': ObjectId('525938716ffc2c5813aa263d')}tolocalhost success
+2013-10-12 20:09:15   INFO - report {'load': 16, 'hostname': 'chenqing.org', '_id': ObjectId('52593beb6ffc2c5c89a13535')}tolocalhost success
+2013-10-12 20:09:55   INFO - report {'load': 16, 'hostname': 'chenqing.org', '_id': ObjectId('52593c136ffc2c5cbdb20def')}tolocalhost success
+2013-10-12 20:10:47   INFO - report {'load': 16, 'hostname': 'chenqing.org', '_id': ObjectId('52593c476ffc2c5ced7c6614')}tolocalhost success

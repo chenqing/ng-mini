@@ -6,7 +6,7 @@ import subprocess
 import nginit
 from nglog import log
 
-def report_mysql(host,user,passwd,database,table,data):
+def report_mysql(data):
     """
     report collect data to mysql .
     need MySQL-python module
@@ -28,8 +28,8 @@ def report_mysql(host,user,passwd,database,table,data):
     values = []
     
     try:
-        conn = MySQLdb.connect(host,user,passwd)
-        conn.select_db(database)
+        conn = MySQLdb.connect(nginit.MYSQL_HOST,nginit.MYSQL_USER,nginit.MYSQL_PASSWD)
+        conn.select_db(nginit.MYSQL_DATABASE)
         cursor = conn.cursor()
     except:
         log.error('connect mysql server or database  error !')
@@ -56,10 +56,31 @@ def report_mysql(host,user,passwd,database,table,data):
         log.info('report ' + str(data) + ' to ' + host + ' success')
     except:
         log.error('insert sql '+ sql +' error')
-def report_mongo():
+def report_mongo(data):
     """
     report collect data to mongodb
+    need pymongo library
     """
+    try:
+        import pymongo
+    except:
+        log.error('pymongo library is not installed in this server')
+    #connect your mongo server
+    conn = pymongo.MongoClient(host=str(nginit.MONGO_HOST))
+    #get or create a new database
+    db = conn.ng_mini
+    #check auth
+    db.authenticate(nginit.MONGO_USER,nginit.MONGO_PASSWD)
+    #select a collecton (a table),assume your collection name is monitor
+    collection = db.monitor
+    if isinstance(data,dict):
+        try:
+            collection.insert(data)
+            log.info('report ' + str(data) + 'to' + nginit.MONGO_HOST + ' success')
+        except:
+            log.error('report ' + str(data) + 'to' + nginit.MONGO_HOST + ' failed')
+    else:
+        log.error('data not a dict !')
 
 
 def report_redis():
@@ -79,9 +100,6 @@ def report_http_post():
     """
 
 if __name__ == '__main__':
-    data = {'hostname':'chenqing.org','load':15}
-    host = nginit.MYSQL_HOST
-    user = nginit.MYSQL_USER
-    passwd = nginit.MYSQL_PASSWD
-    database = nginit.MYSQL_DATABASE
+    data = {'hostname':'chenqing.org','load':16}
     #report_mysql(host,user,passwd,database,'test',data)
+    report_mongo(data)

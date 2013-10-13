@@ -65,12 +65,13 @@ def report_mongo(data):
         import pymongo
     except:
         log.error('pymongo library is not installed in this server')
-    #connect your mongo server
-    conn = pymongo.MongoClient(host=str(nginit.MONGO_HOST))
+    import pymongo
+    #connect your mongo server 
+    conn = pymongo.MongoClient('mongodb://user:password@localhost:27017')
     #get or create a new database
     db = conn.ng_mini
     #check auth
-    db.authenticate(nginit.MONGO_USER,nginit.MONGO_PASSWD)
+    #db.authenticate(nginit.MONGO_USER,nginit.MONGO_PASSWD)
     #select a collecton (a table),assume your collection name is monitor
     collection = db.monitor
     if isinstance(data,dict):
@@ -100,6 +101,6 @@ def report_http_post():
     """
 
 if __name__ == '__main__':
-    data = {'hostname':'chenqing.org','load':16}
+    data = {'hostname':'chenqing.org','load':18}
     #report_mysql(host,user,passwd,database,'test',data)
     report_mongo(data)

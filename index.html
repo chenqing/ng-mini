@@ -31,37 +31,69 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h1>
+<a name="ng-mini" class="anchor" href="#ng-mini"><span class="octicon octicon-link"></span></a>ng-mini</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>一个利用rrdtool，yaml的集绘图，采集汇报的程序.单独驻守在服务器上，简单配置下yaml文件，就可以轻松的采集数据并汇报给你想要汇报
+的地方</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>我们公司（CC）的NG很牛逼，信息采集画图很不错，不过是内部的东西，而且很大一部分是C写的，也看不到源码，所以大致根据效果，利用十一在家的时间写了这么一个程序ng-mini(因为最近想给媳妇买个ipad-mini,所以就想到了名字里面加个mini)。</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="%E4%B8%80%E5%AE%9E%E7%8E%B0%E5%8A%9F%E8%83%BD" class="anchor" href="#%E4%B8%80%E5%AE%9E%E7%8E%B0%E5%8A%9F%E8%83%BD"><span class="octicon octicon-link"></span></a>一、实现功能</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>信息采集，例如你想采集带宽信息，内存，磁盘，CC，只要你能写出这样的程序或者命令，放到yaml文件的CmdLine后面，那么信息的采集就交给ng-mini 吧，而且你不用再使用crontab 了（当然也可以结合者来）
+画图，自定义颜色，画图方式，是否要合并
+信息汇报，类似saltstack的retuner,发送给服务端（数据库，NoSQL）,供你进行进一步的处理（告警，数据分析等）（PS:待完善）
+自带web展示，基于微型web框架（你要弄个django怎么对得器mini这个字呢，哈哈）bottle.py,就一个文件。前端基于yahoo的pure 框架就一个CSS文件，一切都是要对得起mini这个字啊</p>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="%E4%BA%8C%E7%A8%8B%E5%BA%8F%E4%BE%9D%E8%B5%96" class="anchor" href="#%E4%BA%8C%E7%A8%8B%E5%BA%8F%E4%BE%9D%E8%B5%96"><span class="octicon octicon-link"></span></a>二、程序依赖</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h4>
+<a name="1python%E7%89%88%E6%9C%AC" class="anchor" href="#1python%E7%89%88%E6%9C%AC"><span class="octicon octicon-link"></span></a>1、python版本</h4>
+
+<p>因为这里面的bottle.py 是依赖python2.5或者以上，所以我们原则上也是这样</p>
+
+<h4>
+<a name="2python%E9%A2%9D%E5%A4%96%E7%9A%84%E5%BA%93%E6%96%87%E4%BB%B6" class="anchor" href="#2python%E9%A2%9D%E5%A4%96%E7%9A%84%E5%BA%93%E6%96%87%E4%BB%B6"><span class="octicon octicon-link"></span></a>2、python额外的库文件</h4>
+
+<p>PyYAML</p>
+
+<h4>
+<a name="3rrdtool-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B" class="anchor" href="#3rrdtool-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B"><span class="octicon octicon-link"></span></a>3、rrdtool （命令行下）</h4>
+
+<p>其它的暂时不依赖了</p>
 
 <h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a name="%E4%B8%89%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85" class="anchor" href="#%E4%B8%89%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85"><span class="octicon octicon-link"></span></a>三、程序安装</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>centos 5.x 6.x</p>
+
+<p>wget -O – <a href="http://www.chenqing.org/soft/install-centos.sh">http://www.chenqing.org/soft/install-centos.sh</a> |bash</p>
+
+<p>ubuntu 13.4 (我这测试了这个版本)</p>
+
+<p>sudo wget -O – <a href="http://www.chenqing.org/soft/install-ubuntu.sh">http://www.chenqing.org/soft/install-ubuntu.sh</a> |bash</p>
+
+<p>下一步打算提交到epel源以及ubuntu的仓库中</p>
+
+<h3>
+<a name="%E5%9B%9B%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8" class="anchor" href="#%E5%9B%9B%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8"><span class="octicon octicon-link"></span></a>四、程序启动</h3>
+
+<p>service ng-client start</p>
+
+<h3>
+<a name="%E4%BA%94%E6%9F%A5%E7%9C%8Bweb%E7%95%8C%E9%9D%A2" class="anchor" href="#%E4%BA%94%E6%9F%A5%E7%9C%8Bweb%E7%95%8C%E9%9D%A2"><span class="octicon octicon-link"></span></a>五、查看web界面</h3>
+
+<p>http://yourip:65533</p>
+
+<p>github:<a href="https://github.com/chenqing/ng-mini">https://github.com/chenqing/ng-mini</a></p>
+
+<h3>
+<a name="%E5%85%ADdemo%E5%9C%B0%E5%9D%80" class="anchor" href="#%E5%85%ADdemo%E5%9C%B0%E5%9D%80"><span class="octicon octicon-link"></span></a>六、demo地址：</h3>
+
+<p><a href="http://www.chenqing.org:65533/mini">http://www.chenqing.org:65533/mini</a></p>
       </section>
     </div>
 

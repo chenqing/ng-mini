@@ -8,14 +8,17 @@ def nglog():
     '''
     处理ng的日志相关的函数
     '''
+    logger = logging.getLogger()
+    logger.setLevel(getattr(logging, nginit.LOG_LEVEL, logging.INFO))
     if nginit.LOGED:
-        logger = logging.getLogger()
-        logger.setLevel(getattr(logging,nginit.LOG_LEVEL))
-        File = logging.handlers.RotatingFileHandler(nginit.LOG_PATH,maxBytes=1024*1024,backupCount=5)
-        Format = logging.Formatter("%(asctime)s   %(levelname)s - %(message)s","%Y-%m-%d %H:%M:%S")
-        File.setFormatter(Format)
-        logger.addHandler(File)
-        return logger
+        try:
+            File = logging.handlers.RotatingFileHandler(nginit.LOG_PATH,maxBytes=1024*1024,backupCount=5)
+            Format = logging.Formatter("%(asctime)s   %(levelname)s - %(message)s","%Y-%m-%d %H:%M:%S")
+            File.setFormatter(Format)
+            logger.addHandler(File)
+        except Exception:
+            pass
+    return logger
 
 log = nglog()
 
